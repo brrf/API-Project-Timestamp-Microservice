@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Armandilho/API-Project-Timestamp-Microservice/issues"
   },
-  "homepage": "https://github.com/Armandilho/API-Project-Timestamp-Microservice#readme"
+  "homepage": "https://github.com/Armandilho/API-Project-Timestamp-Microservice#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

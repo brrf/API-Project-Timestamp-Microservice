@@ -32,4 +32,8 @@ app.get('/api/timestamp/:date_string', (req, res) => {
     return res.json(parseDateString(date_string)) // Estude!!!!!!!
 });
 
+app.use(function(req, res) {
+  res.send('404: Page not Found', 404);
+});
+
 app.listen(PORT, () => console.log('Example app listening on port 3000!'));

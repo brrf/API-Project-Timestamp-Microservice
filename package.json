@@ -4,6 +4,7 @@
   "description": "Work in progress...",
   "main": "server.js",
   "scripts": {
+    "dev": "./node_modules/.bin/nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Armandilho/API-Project-Timestamp-Microservice#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
